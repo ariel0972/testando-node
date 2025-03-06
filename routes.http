@@ -1,0 +1,27 @@
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "Como usar o node",
+    "description": "esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3000/videos
+
+###
+
+PUT http://localhost:3000/videos/35c8d761-c388-476e-b57c-a12474d23a40
+Content-Type: application/json
+
+{
+    "title": "video 02",
+    "description": "esse é o Segundo video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3000/videos/35c8d761-c388-476e-b57c-a12474d23a40
