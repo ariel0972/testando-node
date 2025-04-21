@@ -1,4 +1,4 @@
-POST http://localhost:3000/videos
+POST https://testando-o-node.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,19 +9,19 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/videos
+GET https://testando-o-node.onrender.com/videos
 
 ###
 
-PUT http://localhost:3000/videos/35c8d761-c388-476e-b57c-a12474d23a40
+PUT https://testando-o-node.onrender.com/videos/8a7c6d92-3285-4baa-99f9-bbcb67e90c19
 Content-Type: application/json
 
 {
-    "title": "video 02",
-    "description": "esse é o Segundo video",
+    "title": "Video 02",
+    "description": "Comclui o teste de Node",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3000/videos/35c8d761-c388-476e-b57c-a12474d23a40
+DELETE https://testando-o-node.onrender.com/videos/8a7c6d92-3285-4baa-99f9-bbcb67e90c19
